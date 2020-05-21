@@ -1,0 +1,56 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+form {
+    margin-top: 10px;
+}
+
+hr {
+    margin: 0px 0px 10px 0px;
+}
+
+h1 {
+    margin: 3px !important;
+}
+
+.red {
+    color: rgb(227, 94, 107);
+}
+
+.v-middle {
+    vertical-align: middle;
+}
+
+button {
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin: 0 2px;
+}
+
+    button.default {
+        background-color: #F5F5F5;
+    }
+
+    button.primary {
+        background-color: #3F51B5;
+        color: #FFF;
+        border-color: #6472c1;
+    }
+
+.msg-success {
+    background-color: #28A745;
+    color: #FFF;
+}
+
+.msg-error {
+    background-color: #C40619;
+    color: #FFF;
+}

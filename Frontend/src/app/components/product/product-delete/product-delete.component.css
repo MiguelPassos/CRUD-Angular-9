@@ -1,0 +1,15 @@
+form {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+
+button {
+    margin: 10px 15px 10px 0
+}
+
+    button.primary {
+        background-color: #BF0A0A;
+        color: #FFF;
+        border-color: #C74C4C;
+    }

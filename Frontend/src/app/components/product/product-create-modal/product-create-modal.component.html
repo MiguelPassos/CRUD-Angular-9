@@ -1,0 +1,16 @@
+<h1 mat-dialog-title>Novo Produto</h1>
+<hr />
+<div mat-dialog-content>
+    <mat-form-field>
+        <mat-label>Nome</mat-label>
+        <input matInput placeholder="Nome" [(ngModel)]="product.name">
+    </mat-form-field>
+    <mat-form-field>
+        <mat-label>Valor (R$)</mat-label>
+        <input matInput placeholder="Ex. 100.00" type="number" step="0.01" [(ngModel)]="product.price">        
+    </mat-form-field>
+</div>
+<div mat-dialog-actions>
+    <button class="default" (click)="cancel()">Cancelar</button>
+    <button class="primary" [mat-dialog-close]="product">Salvar</button>
+</div>

@@ -1,0 +1,23 @@
+<div>
+    <table>
+        <thead>
+            <tr style="border-bottom: solid #C5C5C5 1px">
+                <th style="width: 30px; text-align: center;">Id</th>
+                <th style="width: 250px; text-align: center;">Nome</th>
+                <th style="width: 100px; text-align: center;">Preco</th>
+                <th style="width: 80px; text-align: center;">A&ccedil;&otilde;es</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let product of products">
+                <td>{{ product.id }}</td>
+                <td>{{ product.name }}</td>
+                <td>{{ product.price | currency: 'BRL' }}</td>
+                <td>
+                    <a class="edit" title="Editar" routerLink="/products/update/{{ product.id }}"><i class="material-icons">edit</i></a>
+                    <a class="delete" title="Excluir" routerLink="/products/delete/{{ product.id }}"><i class="material-icons">delete</i></a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
