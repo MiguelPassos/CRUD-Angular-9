@@ -1,0 +1,29 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Caneta BIC Preta",
+      "price": 1.5
+    },
+    {
+      "id": 2,
+      "name": "Notebook Mac PRO",
+      "price": 12000.89
+    },
+    {
+      "id": 3,
+      "name": "Samsung S20+",
+      "price": 6000.89
+    },
+    {
+      "name": "Microondas Eletrolux",
+      "price": 725.9,
+      "id": 4
+    },
+    {
+      "name": "Console PS4 PRO",
+      "price": 3500,
+      "id": 5
+    }
+  ]
+}
